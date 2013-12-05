@@ -6,9 +6,32 @@
            fetch="https://github.com/jrior001/" />
 
 
-<!-- get my device files -->
-     <project path="device/htc/evita" name="cfx_device_htc_evita" remote="jr" revision="cm-10.2" />
-     <project path="device/htc/s4-common" name="CyanogenMod/android_device_htc_s4-common" remote="github" revision="cm-10.2" />
-     <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="jr" revision="cm-10.2" />
-     <!--project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.1" /-->
+<!-- get my device files instead of cfx files-->
+     <remove-project name="external_iw" />     <remove-project name="hardware_ti_wlan" />
+     <!--remove-project name="device_htc_evita" />
+     <remove-project name="device_htc_jewel" />
+     <remove-project name="device_htc_s4-common" />
+     <remove-project name="device_htc_msm8960-common" />
+     <remove-project name="device_htc_fireball" />    
+     <remove-project name="device_htc_ville" />
+     <remove-project name="kernel_htc_msm8960" /-->
+     <!--project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="github" revision="cm-10.2" />
+     <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="github" revision="cm-10.2" />
+     <project path="kernel/samsung/espressovzw" name="android_kernel_samsung_espressovzw-jb" remote="jr" revision="jb" />
+     <project path="device/samsung/espressovzw" name="android_device_samsung_espressovzw" remote="jr" revision="jellybean" />
+     <project path="vendor/samsung/espressovzw" name="android_vendor_samsung_espressovzw" remote="jr" revision="jellybean" /-->
+     <!--project path="device/htc/ville" name="cfx_device_htc_ville" remote="jr" revision="cfx-4.4" />
+     <project path="device/htc/jewel" name="cfx_device_htc_jewel" remote="jr" revision="cfx-4.4" />
+     <project path="device/htc/evita" name="cfx_device_htc_evita" remote="jr" revision="cfx-4.4" />
+     <project path="device/htc/s4-common" name="cfx_device_htc_s4-common" remote="jr" revision="cfx-4.4" />
+     <project path="device/htc/msm8960-common" name="cfx_device_htc_msm8960-common" remote="jr" revision="cfx-4.4" />
+     <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="jr" revision="cfx-4.4" />
+     <project path="device/htc/fireball" name="cfx_device_htc_fireball" remote="jr" revision="cfx-4.4" /-->
+     <!--remove-project name="proprietary_vendor_htc" />
+     <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.2" /-->
+     <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-10.2" />
+ <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-10.2" />
+     <project path="kernel/htc/endeavoru" name="android_kernel_htc_endeavoru" remote="jr" revision="jb-devel-mr2-release" />
+    <project path="device/htc/endeavoru" name="android_device_htc_endeavoru" remote="jr" revision="cm-10.2" />
+    <project path="device/htc/tegra3-common" name="android_device_htc_tegra3-common" remote="jr" revision="jb-devel-mr2-release" />
    </manifest>
