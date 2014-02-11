@@ -8,7 +8,7 @@
 
 <!-- get my device files -->
       <project path="device/lge/d803" name="android_device_lge_d803" remote="ptesmoke" revision="kitkat" />
-      <project path="device/lge/d803" name="android_kernel_lge_g2" remote="ptesmoke" revision="kitkat" />
-      <project path="device/lge/d803" name="android_vendor_lge" remote="ptesmoke" revision="kitkat" />
-      <project path="device/lge/d803" name="android_device_lge_g2-common" remote="ptesmoke" revision="kitkat" />     
+      <project path="kernel/lge/g2" name="android_kernel_lge_g2" remote="ptesmoke" revision="kitkat" />
+      <project path="vendor/lge" name="android_vendor_lge" remote="ptesmoke" revision="kitkat" />
+      <project path="device/lge/g2-common" name="android_device_lge_g2-common" remote="ptesmoke" revision="kitkat" />     
    </manifest>
