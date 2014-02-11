@@ -2,13 +2,13 @@
    <manifest>
 
 
-  <remote name="jr"
-           fetch="https://github.com/jrior001/" />
+  <remote name="ptesmoke"
+           fetch="https://github.com/ptesmoke" />
 
 
 <!-- get my device files -->
-     <project path="device/htc/evita" name="cfx_device_htc_evita" remote="jr" revision="cm-10.2" />
-     <project path="device/htc/s4-common" name="CyanogenMod/android_device_htc_s4-common" remote="github" revision="cm-10.2" />
-     <project path="kernel/htc/msm8960" name="android_kernel_htc_msm8960" remote="jr" revision="cm-10.2" />
-     <!--project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.1" /-->
+      <project path="device/lge/d803" name="android_device_lge_d803" remote="ptesmoke" revision="kitkat" />
+      <project path="device/lge/d803" name="android_kernel_lge_g2" remote="ptesmoke" revision="kitkat" />
+      <project path="device/lge/d803" name="android_vendor_lge" remote="ptesmoke" revision="kitkat" />
+      <project path="device/lge/d803" name="android_device_lge_g2-common" remote="ptesmoke" revision="kitkat" />     
    </manifest>
